@@ -226,7 +226,7 @@ class DiceGame{
 		if(isShaked === true){
 			if(this.winners.length === 1){
 				setTimeout(()=>{
-					title.innerHTML = `Player ${this.winners[0]} wins!`;
+					title.innerHTML = `Player ${this.winners[0]} wins! MUKEEEEE GILEEEEE!`;
 					title.classList.add("winner");
 				}, 1000);	
 			} else{
